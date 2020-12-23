@@ -1,6 +1,7 @@
 # monty
 
-General
+## General
+#
 What do LIFO and FIFO mean
 What is a stack, and when to use it
 What is a queue, and when to use it
@@ -9,6 +10,7 @@ What are the most common use cases of stacks and queues
 What is the proper way to use global variables
 
 Usage: monty file:
+#
 ./monty bytecode.m
 where file is the path to the file containing Monty byte code
 If the user does not give any file or more than one argument to your program, print the error message USAGE: monty file, followed by a new line, and exit with the status EXIT_FAILURE
