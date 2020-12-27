@@ -22,6 +22,10 @@ unsigned int line_number, FILE *fp)
 		{"swap", swap},
 		{"add", add},
 		{"nop", nop},
+		{"sub", sub},
+		{"div", op_div}, {"mul", mul}, {"mod", mod}, {"pchar", pchar},
+		{"pstr", pstr}, {"rotl", rotl}, {"rotr", rotr},
+		{"stack", stack_lifo}, {"queue", queue_fifo},
 		{NULL, NULL}
 	};
 
